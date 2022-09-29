@@ -24,9 +24,13 @@ public class Ejercicio_Extra13 {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese el tamaño de la escalera");
         int tamaño = leer.nextInt();
-        for (int i = 0; i < tamaño; i ++){
-            System.out.print(i);
+        System.out.println("");
+        for (int i = 1; i <= tamaño ; i ++){
+            for (int j = 1; j <=  i; j ++){
+                System.out.print(j + "");
+            }
+            System.out.println("");
         }
+        System.out.println("");
     }
-    
 }
